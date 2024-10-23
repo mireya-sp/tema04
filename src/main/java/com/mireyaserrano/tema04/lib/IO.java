@@ -25,4 +25,20 @@ public class IO {
         scanner.close();
         return texto;
     }
+
+    public static int solicitarEnteros(String mensaje, int valorMinimo, int valorMaximo){
+        int valorLeido;
+        boolean valido;
+        Scanner scanner = new Scanner(System.in);
+        do {
+            System.out.println(mensaje);
+            valorLeido = Integer.parseInt(scanner.nextLine());
+            valido = valorLeido >= valorMinimo && valorLeido <= valorMaximo;
+            if (!valido){
+                System.err.printf("El valor debe estar comprendido entre [%d - %d]\n", valorMinimo, valorMaximo);
+            }
+        }while (!valido);
+        scanner.close();
+        return valorLeido;
+    }
 }
