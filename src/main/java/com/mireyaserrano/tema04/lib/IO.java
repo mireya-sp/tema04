@@ -25,16 +25,4 @@ public class IO {
         scanner.close();
         return texto;
     }
-
-
-   /* public static Integer numayor(String mensaje, int cantnum){
-        Scanner scanner = new Scanner(System.in);
-        int num;
-        num = new int[cantnum];
-        for (int i = 1; i <= cantnum; i++){
-            System.out.println("Introduce un número");
-            num[i] = Integer.parseInt(scanner.nextLine());
-        }*/
-
-
 }
