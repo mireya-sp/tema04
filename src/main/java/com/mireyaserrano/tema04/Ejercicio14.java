@@ -14,7 +14,6 @@ public class Ejercicio14 {
 
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
-        int factN, factM, factNM;
         System.out.println("Introduce n");
         int n = Integer.parseInt(scanner.nextLine());
         System.out.println("Introduce m");
