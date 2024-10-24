@@ -26,7 +26,7 @@ public class Ejercicio8 {
                 System.err.println("LA CADENA DEBE SER DE CUATRO CARACTERES");
             }
         }while (!correcto);
-
+        scanner.close();
         if (capicua(numeros) == true){
             System.out.println("El número es capicua");
         }else {
