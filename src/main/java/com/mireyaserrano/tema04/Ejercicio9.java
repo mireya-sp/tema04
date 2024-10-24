@@ -15,6 +15,7 @@ public class Ejercicio9 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un número y se calculará el sumatorio de los números anteriores");
         int x = Integer.parseInt(scanner.nextLine());
+        scanner.close();
         System.out.println("El sumatorio de " + x + " hasta el 1 es " + sumatorio(x));
     }
 }
