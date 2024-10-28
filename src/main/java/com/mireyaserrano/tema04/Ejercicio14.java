@@ -3,6 +3,12 @@ package com.mireyaserrano.tema04;
 import java.util.Scanner;
 
 public class Ejercicio14 {
+    /**
+     * Realiza los factoriales necesarios para hacer la operacion.
+     * @param n Se introduce el numero n de la fórmula
+     * @param m Se introduce el número m de la fórmula
+     * @return
+     */
     public static Float resultado(int n, int m){
         int resta = n - m;
         int factN = Ejercicio7.factorial(n);
