@@ -3,6 +3,11 @@ package com.mireyaserrano.tema04;
 import java.util.Scanner;
 
 public class Ejercicio13 {
+    /**
+     * Solicita el idioma y según el idioma guarda un saludo en el String
+     * @param lenguaje Introduce a, b ó c para saber con que idioma hay que saludar
+     * @return
+     */
     public static String idioma(String lenguaje){
         String saludo = "No te entiendo";
         if (lenguaje.equals("a")){
