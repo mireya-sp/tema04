@@ -3,7 +3,7 @@ package com.mireyaserrano.tema04;
 import java.util.Scanner;
 
 public class Ejercicio7 {
-    private static int factorial(int num) {
+    public static int factorial(int num) {
         int resultado = 1;
         for (int i = 1; i <= num; i++){
             resultado = i * resultado;

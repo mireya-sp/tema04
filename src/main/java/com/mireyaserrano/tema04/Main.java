@@ -7,4 +7,7 @@ public class Main {
         String nombreProducto = IO.solicitarString("Indica nombre", 5, 30);
                 System.out.print(nombreProducto);
     }
+
+
+
 }

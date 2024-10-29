@@ -4,6 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Ejercicio11 {
+
     private static Integer aleatorio(int max, int min){
         Random aleatorio = new Random();
         int goles;

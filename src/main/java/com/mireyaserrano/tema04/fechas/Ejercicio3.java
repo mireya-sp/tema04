@@ -10,11 +10,21 @@ public class Ejercicio3 {
         MERCURIO, VENUS, TIERRA, MARTE, JUPITER, SATURNO, URANO, NEPTUNO
     }
 
+    /**
+     * A partir de la fecha de nacmiento del usuario calcula cuantos días de vida tiene
+     * @param fechaNacimiento La fecha de nacimiento del usuario
+     * @return
+     */
     public static long calcularDias(LocalDate fechaNacimiento){
         LocalDate hoy = LocalDate.now();
         return ChronoUnit.DAYS.between(fechaNacimiento, hoy);
     }
 
+    /**
+     * Según el planeta eleguido devuelve en cuantos días pasa un año
+     * @param planeta El planeta eleguido
+     * @return
+     */
     public static double dias(Planeta planeta){
         double orbitDays;
         orbitDays = switch (planeta){

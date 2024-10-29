@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33c4d582-9873-4e9d-a4f7-b6e75d3a1112" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/fechas/Ejercicio3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/Ejercicio11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/Ejercicio11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/Ejercicio15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/Ejercicio15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/Ejercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/Ejercicio7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/lib/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/lib/IO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/fechas/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/fechas/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/fechas/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mireyaserrano/tema04/fechas/Ejercicio2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +46,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio1.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio10.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio11.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio12.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio13.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio14.main()].executor": "Run",
     "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio2.main()].executor": "Run",
     "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio3.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio4.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio5.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio6.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio7.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio8.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.Ejercicio9.main()].executor": "Run",
     "Gradle.Tema04 [:com.mireyaserrano.tema04.Main.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.fechas.Ejercicio1.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.fechas.Ejercicio2.main()].executor": "Run",
+    "Gradle.Tema04 [:com.mireyaserrano.tema04.fechas.Ejercicio3.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Programacion/Tema04"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
