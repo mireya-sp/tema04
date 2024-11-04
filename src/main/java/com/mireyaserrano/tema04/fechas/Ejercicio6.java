@@ -26,7 +26,7 @@ public class Ejercicio6 {
                 double horas = (dias - (int)dias) * 24;
                 double minutos = (horas - (int)horas) * 60;
                 double segundos = (minutos - (int)minutos) * 60;
-                System.out.printf(" %d dias %d horas %d minutos %d segundos\u001B[2K", (int)dias, (int)horas, (int)minutos, (int)segundos);
+                System.out.printf("\u001B[s\u001B[2K%d dias %d horas %d minutos %d segundos\u001B[u", (int)dias, (int)horas, (int)minutos, (int)segundos);
 
             }
         }, 0, 1000);
