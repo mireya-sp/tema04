@@ -21,12 +21,13 @@ public class Ejercicio6 {
             public void run() {
                 LocalDateTime anioNuevo = LocalDateTime.parse("01/01/2025 00:00:00", formatter);
                 LocalDateTime ahoraActualizado = LocalDateTime.now();
+                long meses = ChronoUnit.MONTHS.between(ahoraActualizado, anioNuevo);
                 double segundosTotales = ChronoUnit.SECONDS.between(ahoraActualizado, anioNuevo);
                 double dias  = segundosTotales / 86400;
                 double horas = (dias - (int)dias) * 24;
                 double minutos = (horas - (int)horas) * 60;
                 double segundos = (minutos - (int)minutos) * 60;
-                System.out.printf("\u001B[s\u001B[2K%d dias %d horas %d minutos %d segundos\u001B[u", (int)dias, (int)horas, (int)minutos, (int)segundos);
+                System.out.printf("\u001B[s\u001B[2K%d meses %d dias %d horas %d minutos %d segundos\u001B[u",(int)meses, (int)dias, (int)horas, (int)minutos, (int)segundos);
 
             }
         }, 0, 1000);
